@@ -7,7 +7,7 @@
     <meta name='author' content='Ashok Khandhar'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Cart | Shopy</title>
-    <link rel='stylesheet' href='./style.css'>
+    <link rel='stylesheet' href='./cart.css'>
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <a class="nav-list-item" href="#">
-                        <span class="material-symbols-outlined">shopping_cart</span>
+                        <span class="material-symbols-outlined filed">shopping_cart</span>
                     </a>
                 </li>
                 <!-- <li>
@@ -38,7 +38,36 @@
     </header>
     <main>
         <h2 class="heading">Your Cart</h2>
-        <div class="container"></div>
+        <div class="container1">
+            <div class="products-container"></div>
+            <div class="price-container">
+                <div class="price-heading">Price Details</div>
+                <div class="price-items">
+                    <span>Price (<span class="item-count"></span>) items</span>
+                    <span>₹<span class="product-price"></span></span>
+                </div>
+                <div class="price-discount">
+                    <span>Discount</span>
+                    <span>- ₹<span class="discounted-amount"></span></span>
+                </div>
+                <div class="price-delivery-charge">
+                    <span>Delivery Charge</span>
+                    <span>+ ₹50</span>
+                </div>
+                <div class="price-total">
+                    <span>Total Amount</span>
+                    <span>₹<span class="total-amount"></span></span>
+                </div>
+                <div class="price-total-discount">
+                    You will save ₹<span class="discounted-amount"></span> on this order
+                </div>
+                <a class="btn-link" href="./payment.html">
+                    <button class="btn buy-btn">
+                        Place Order
+                    </button>
+                </a>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-finger-print">
